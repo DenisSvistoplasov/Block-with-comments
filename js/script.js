@@ -121,7 +121,7 @@
     return {
       name: form.elements.name.value.trim(),
       date: formDate,
-      text: form.elements.text.value.trim()
+      text: form.elements.text.value
     };
   }
 
